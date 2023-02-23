@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from "./components/NavBar";
 import Home from "./components/Home";
+import { useState } from 'react';
 import {Route, Routes, BrowserRouter} from 'react-router-dom'
 
 function App() {
